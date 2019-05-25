@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">JPDemos</string>
+
+    <string name="test_result_hint">测试结果</string>
+
+    <!--Thread control-->
+    <string name="name_thread_control">线程控制</string>
+
+    <!--Other-->
+    <string name="name_other">其他</string>
+
+    <!--test case name-->
+    <string name="test_normal_start">正常启动两个线程</string>
+    <string name="test_join_start">B调用A的join方法</string>
+    <string name="wait_start">A wait,B调用notify唤醒A</string>
+    <string name="test_countDownLatch_start">D等ABC运行完再启动</string>
+    <string name="test_all_ready_start">ABC准备好后一起启动</string>
+    <string name="test_do_task_start">子线程传递数据到主线程</string>
+    <string name="test_executorService_start">ExecutorService配合FutureTask传递结果</string>
 </resources>
