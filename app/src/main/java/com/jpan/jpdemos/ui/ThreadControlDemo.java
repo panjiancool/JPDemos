@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.jpan.jpdemos.BaseActivity;
 import com.jpan.jpdemos.R;
+import com.jpan.jpdemos.utils.PrintHelper;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -45,8 +46,6 @@ public class ThreadControlDemo extends BaseActivity {
 
     private static Handler mHandler;
 
-    private StringBuilder mResult = new StringBuilder();
-
     private static class NewHandler extends Handler {
         WeakReference<ThreadControlDemo> mActivityWeakReference;
 
@@ -74,9 +73,7 @@ public class ThreadControlDemo extends BaseActivity {
     }
 
     public void setResultContent(String content) {
-        mResult.append(content);
-        mResult.append("\r\n");
-        mTextResult.setText(mResult.toString());
+        mTextResult.setText(PrintHelper.getInstance().print(content));
     }
 
     @Override
@@ -98,7 +95,7 @@ public class ThreadControlDemo extends BaseActivity {
 
     @Override
     public void onClick(View v) {
-        mResult.setLength(0);
+        PrintHelper.getInstance().clear();
         switch (v.getId()) {
             case R.id.normal_start:
                 demo1();

@@ -22,6 +22,9 @@
         <activity
             android:name=".ui.ThreadControlDemo"
             android:label="@string/name_thread_control" />
+        <activity
+            android:name=".ui.TouchEventDemo"
+            android:label="@string/name_touch_event" />
     </application>
 
 </manifest>

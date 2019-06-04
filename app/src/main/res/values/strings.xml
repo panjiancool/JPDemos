@@ -5,11 +5,7 @@
 
     <!--Thread control-->
     <string name="name_thread_control">线程控制</string>
-
-    <!--Other-->
-    <string name="name_other">其他</string>
-
-    <!--test case name-->
+    <!--Thread control test case name-->
     <string name="test_normal_start">正常启动两个线程</string>
     <string name="test_join_start">B调用A的join方法</string>
     <string name="wait_start">A wait,B调用notify唤醒A</string>
@@ -17,4 +13,14 @@
     <string name="test_all_ready_start">ABC准备好后一起启动</string>
     <string name="test_do_task_start">子线程传递数据到主线程</string>
     <string name="test_executorService_start">ExecutorService配合FutureTask传递结果</string>
+
+    <!--Touch event-->
+    <string name="name_touch_event">事件分发</string>
+    <string name="btn_touch_me">Touch me</string>
+    <string name="btn_touch_true">View onTouch 返回true</string>
+    <string name="btn_touch_click_true">View click功能为true</string>
+    <string name="btn_touch_event_clear">清除内容</string>
+
+    <!--Other-->
+    <string name="name_other">其他</string>
 </resources>
