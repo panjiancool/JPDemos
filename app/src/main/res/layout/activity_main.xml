@@ -8,7 +8,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/btn_thread_control"
@@ -23,6 +24,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/name_touch_event" />
+
+        <Button
+            android:id="@+id/btn_gpu_override"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_gpu_override" />
 
         <Button
             android:id="@+id/btn_other"

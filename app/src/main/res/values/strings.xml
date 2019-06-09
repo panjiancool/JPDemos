@@ -21,6 +21,11 @@
     <string name="btn_touch_click_true">View click功能为true</string>
     <string name="btn_touch_event_clear">清除内容</string>
 
+    <!--Debug GPU Override-->
+    <string name="name_gpu_override">调试GPU过度重绘</string>
+    <string name="name_gpu_override_text">过度重绘</string>
+    <string name="name_gpu_not_override_text">没有过度重绘</string>
+
     <!--Other-->
     <string name="name_other">其他</string>
 </resources>

@@ -25,6 +25,10 @@
         <activity
             android:name=".ui.TouchEventDemo"
             android:label="@string/name_touch_event" />
+
+        <activity
+            android:name=".ui.GPUOverrideDemo"
+            android:label="@string/name_gpu_override" />
     </application>
 
 </manifest>
