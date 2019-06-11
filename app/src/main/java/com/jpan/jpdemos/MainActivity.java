@@ -5,6 +5,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.jpan.jpdemos.ui.GPUOverrideDemo;
+import com.jpan.jpdemos.ui.MemoryTestDemo;
+import com.jpan.jpdemos.ui.NinePathPictureDemo;
 import com.jpan.jpdemos.ui.ThreadControlDemo;
 import com.jpan.jpdemos.ui.TouchEventDemo;
 import com.jpan.jpdemos.utils.PrintHelper;
@@ -19,6 +21,10 @@ public class MainActivity extends BaseActivity {
     Button mToucEventBtn;
     @InjectView(R.id.btn_gpu_override)
     Button mGPUOverrideBtn;
+    @InjectView(R.id.btn_nine_path)
+    Button mNinePathBtn;
+    @InjectView(R.id.btn_memory)
+    Button mMemoryBtn;
     @InjectView(R.id.btn_other)
     Button mOther;
 
@@ -32,6 +38,8 @@ public class MainActivity extends BaseActivity {
         mThreadControlBtn.setOnClickListener(this);
         mToucEventBtn.setOnClickListener(this);
         mGPUOverrideBtn.setOnClickListener(this);
+        mNinePathBtn.setOnClickListener(this);
+        mMemoryBtn.setOnClickListener(this);
         mOther.setOnClickListener(this);
     }
 
@@ -47,6 +55,12 @@ public class MainActivity extends BaseActivity {
                 break;
             case R.id.btn_gpu_override:
                 intent.setClass(this, GPUOverrideDemo.class);
+                break;
+            case R.id.btn_nine_path:
+                intent.setClass(this, NinePathPictureDemo.class);
+                break;
+            case R.id.btn_memory:
+                intent.setClass(this, MemoryTestDemo.class);
                 break;
             case R.id.btn_other:
                 intent.setClass(this, ThreadControlDemo.class);

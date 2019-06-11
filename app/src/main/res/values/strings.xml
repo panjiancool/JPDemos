@@ -26,6 +26,12 @@
     <string name="name_gpu_override_text">过度重绘</string>
     <string name="name_gpu_not_override_text">没有过度重绘</string>
 
+    <!--Nine Path-->
+    <string name="name_nine_path">.9.png 测试</string>
+
+    <!--Memory Test-->
+    <string name="name_memory_test">内存泄漏测试</string>
+
     <!--Other-->
     <string name="name_other">其他</string>
 </resources>

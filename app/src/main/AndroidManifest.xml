@@ -3,6 +3,7 @@
     package="com.jpan.jpdemos">
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="false"
         android:icon="@drawable/demos_logo"
         android:label="@string/app_name"
@@ -29,6 +30,12 @@
         <activity
             android:name=".ui.GPUOverrideDemo"
             android:label="@string/name_gpu_override" />
+        <activity
+            android:name=".ui.MemoryTestDemo"
+            android:label="@string/name_memory_test" />
+        <activity
+            android:name=".ui.NinePathPictureDemo"
+            android:label="@string/name_nine_path" />
     </application>
 
 </manifest>

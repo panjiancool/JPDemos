@@ -33,6 +33,20 @@
             android:text="@string/name_gpu_override" />
 
         <Button
+            android:id="@+id/btn_nine_path"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_nine_path" />
+
+        <Button
+            android:id="@+id/btn_memory"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_memory_test" />
+
+        <Button
             android:id="@+id/btn_other"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"

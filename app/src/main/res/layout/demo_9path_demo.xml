@@ -15,6 +15,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:background="@drawable/test"
+        android:background="@drawable/test_9path"
         android:text="横着按钮,使用9path" />
 </LinearLayout>
