@@ -54,6 +54,13 @@
             android:text="@string/name_exception_test" />
 
         <Button
+            android:id="@+id/btn_activity_lifecycle"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_activity_lifecycle_test" />
+
+        <Button
             android:id="@+id/btn_other"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"

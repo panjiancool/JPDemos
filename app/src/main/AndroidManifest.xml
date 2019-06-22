@@ -39,6 +39,9 @@
         <activity
             android:name=".ui.ExceptionTestDemo"
             android:label="@string/name_exception_test" />
+        <activity
+            android:name=".ui.ActivityLifecycleDemo"
+            android:label="@string/name_activity_lifecycle_test" />
     </application>
 
 </manifest>

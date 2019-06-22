@@ -36,6 +36,8 @@
     <string name="name_exception_test">Exception错误测试</string>
     <string name="exception_test_des">一个try块下面有多个catch块，其中一个catch块内又抛出了异常，能被下面的catch块捕获吗？答案是不会。</string>
 
+    <!--Memory Test-->
+    <string name="name_activity_lifecycle_test">Activity生命周期</string>
 
     <!--Other-->
     <string name="name_other">其他</string>
