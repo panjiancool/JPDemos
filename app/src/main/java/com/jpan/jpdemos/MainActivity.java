@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 
+import com.jpan.jpdemos.ui.ExceptionTestDemo;
 import com.jpan.jpdemos.ui.GPUOverrideDemo;
 import com.jpan.jpdemos.ui.MemoryTestDemo;
 import com.jpan.jpdemos.ui.NinePathPictureDemo;
@@ -25,6 +26,8 @@ public class MainActivity extends BaseActivity {
     Button mNinePathBtn;
     @InjectView(R.id.btn_memory)
     Button mMemoryBtn;
+    @InjectView(R.id.btn_exception)
+    Button mExceptionBtn;
     @InjectView(R.id.btn_other)
     Button mOther;
 
@@ -40,6 +43,7 @@ public class MainActivity extends BaseActivity {
         mGPUOverrideBtn.setOnClickListener(this);
         mNinePathBtn.setOnClickListener(this);
         mMemoryBtn.setOnClickListener(this);
+        mExceptionBtn.setOnClickListener(this);
         mOther.setOnClickListener(this);
     }
 
@@ -61,6 +65,9 @@ public class MainActivity extends BaseActivity {
                 break;
             case R.id.btn_memory:
                 intent.setClass(this, MemoryTestDemo.class);
+                break;
+            case R.id.btn_exception:
+                intent.setClass(this, ExceptionTestDemo.class);
                 break;
             case R.id.btn_other:
                 intent.setClass(this, ThreadControlDemo.class);

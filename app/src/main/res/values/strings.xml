@@ -32,6 +32,11 @@
     <!--Memory Test-->
     <string name="name_memory_test">内存泄漏测试</string>
 
+    <!--Exception test-->
+    <string name="name_exception_test">Exception错误测试</string>
+    <string name="exception_test_des">一个try块下面有多个catch块，其中一个catch块内又抛出了异常，能被下面的catch块捕获吗？答案是不会。</string>
+
+
     <!--Other-->
     <string name="name_other">其他</string>
 </resources>

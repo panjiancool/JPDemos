@@ -36,6 +36,9 @@
         <activity
             android:name=".ui.NinePathPictureDemo"
             android:label="@string/name_nine_path" />
+        <activity
+            android:name=".ui.ExceptionTestDemo"
+            android:label="@string/name_exception_test" />
     </application>
 
 </manifest>
